@@ -1,0 +1,151 @@
+body 
+{
+	background-color:  #282828;
+}	
+header 
+{
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	color: white;
+	font-family: 'Lato', sans-serif;
+}	
+header h1 h3 
+{
+	float: left;
+	width: 35%;
+	min-width: 200px;
+}
+header h1 a
+{
+	display: block;
+	width: 200px;
+	height: 60 px;
+	margin: 5px 0;
+	text-indent:xxxxx;
+	background: url("../Pictures/flaga1.png") top left no-repeat;	
+	float: left;
+	width: 35%;
+	min-width: 200px;
+}
+header nav 
+{
+	float: center;
+	width: 100%;
+}
+header nav ul 
+{
+	display: table;
+	width: 75%;
+}
+header nav ul li 
+{
+	display: table-cell;
+}
+header nav ul a 
+{
+	display: block;
+	height: 70 px;
+	line-height: 70 px;
+	font-size: 1.0em;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+.header__phone
+{
+	
+	-webkit-box-reflect: below 0
+    -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.8, transparent), to(white));
+}
+.header__menu
+{
+	margin-top:20px;
+}
+.header__overlayFirst 
+{
+	margin-left: 175px;
+	margin-top: 50px;
+	max-height: 200px;
+	font-size: 150px;
+	font-weight: bold;
+    position: absolute;
+    z-index:100;
+	opacity: 1;	 
+}
+.main__buttons-background 
+{
+	background: white;
+	float: center;
+	width: 100%;
+}
+.main__buttons 
+{
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	color: #282828;
+	font-family: 'Lato', sans-serif;
+}
+.main__overlaySecend {
+	margin-left: 200px;
+	font-size: 150px;
+	font-weight: bold;
+    position: absolute;
+    z-index:100;
+	opacity: 0.1;
+}
+.conteiner
+{
+	margin-left:200px;
+	font-family: 'Lato', sans-serif;	
+}
+article
+{
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	color: #282828;
+	font-family: 'Lato', sans-serif;
+}
+article a
+{
+	font-family: 'Arial', sans-serif !important;
+	font-style: 'Arial', sans-serif !important;
+	color: blue;
+}
+article a:hover
+{
+color:red;
+text-decoration :none;
+}
+
+.article__panel-group {
+	width: 100%;
+	max-width: 550px;
+	margin: 0 auto;
+	color: #282828;
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+}
+article span:hover
+{
+color:black !important;
+text-decoration :none;
+}
+
+.aside__content
+{
+	padding-top: 30px;
+	padding-left: 15px;
+}
+aside
+{
+font-family: 'Lato', sans-serif;
+}
+aside a:hover
+{
+color:red !important;
+text-decoration :none;
+}
